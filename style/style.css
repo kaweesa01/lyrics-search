@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: gray;
+}
+.top{
+background-color: aqua;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("../music-3507317_1920.jpg");
+height: 300px;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.top h1{
+    color: white;
+}
+form{
+    margin-top: 40px;
+    background-color: beige;
+    height: 40px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+[type="text"]{
+        height: 100%;
+        border: none;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        text-indent: 10px;
+        font-size: 1rem;
+      width: 250px;
+        color: gray;
+}
+
+[type="text"]:focus{
+  outline: none;
+  background-color: gray;
+  color: white;
+}
+[type="button"]{
+    height: 100%;
+    border: none;
+    background-color: pink;
+    padding: 0px 17px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+}
+
+[type="button"]:focus{
+    outline: none;
+  }
+  .more-btns button{
+    border: none;
+    background-color: pink;
+    padding: 5px 17px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    cursor: pointer;
+  }
+
+  .more-btns button:focus{
+    outline: none;
+  }
+
+
+  .bottom{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 20px;
+      align-items: center;
+      width: 100%;
+  }
+
+  ul{
+      list-style: none;
+  }
+  li{
+      padding: 10px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .info-span{
+      margin-right: 100px;
+  }
+  .button-span{
+    margin-left: 100px;
+  }
+  .button-span button{
+     background-color: pink;
+     border: none;
+     padding: 5px 10px;
+     border-radius: 15px;
+     cursor: pointer;
+  }
+  .button-span button:focus{
+      outline: none;
+  }
+  .req{
+      text-transform: uppercase;
+  }
+  .more{
+      display: flex;
+      justify-content: space-around;
+      margin: 0px;
+      align-items: center;
+  }
+
+  .image{
+      width: 200px;
+      height: 200px;
+      background-color: pink;
+      margin-top: 10px;
+  }
+  .image img{
+      width: 100%;
+      height: 100%;
+  }
+  p{
+      margin-top: 40px;
+      text-align: center;
+  }
+  strong,span{
+      margin-bottom: 20px;
+  }
