@@ -69,6 +69,22 @@ async function moreSong(url) {
 async function getLyrics(artist, song) {
   const res = await fetch(`https://api.lyrics.ovh/v1/${artist}/${song}`);
   const data = await res.json();
+  
+      console.log(data.error)
+
+      if(data.error){
+        result.innerHTML = `
+        <p>
+         <strong>${artist}</strong> - <span>${song}</span>
+        <hr>
+        <p>
+        No lyrics found
+        </p>
+       
+        </p>
+      `;
+      }
+  
   const lyrics = data.lyrics.replace(/(\r\n|\r|\n)/g, "<br>");
 
   result.innerHTML = `
